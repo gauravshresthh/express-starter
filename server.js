@@ -11,7 +11,6 @@ app.use(express.json());
 const PORT = 3000;
 
 app.use('/api/v1/users', userRouter);
-
 app.use('/api/v1/tours', tourRouter);
 
 app.listen(PORT, () => {
