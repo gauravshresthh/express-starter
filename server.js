@@ -36,6 +36,20 @@ app.post('/api/v1/tours', (req, res) => {
   });
 });
 
+app.get('/api/v1/tours/:id', (req, res) => {
+  const id = req.params.id * 1;
+  const tour = tours.find((el) => el.id === id);
+  if (tour) {
+    res
+      .status(200)
+      .json({ status: 'success', results: tours.length, data: { tour } });
+  }
+  res.status(404).json({
+    status: 'failed',
+    data: { msg: `Tour with the given id: ${id} is invalid` },
+  });
+});
+
 const PORT = 3000;
 
 app.listen(PORT, () => {
