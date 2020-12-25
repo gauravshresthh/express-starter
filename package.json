@@ -4,6 +4,8 @@
   "description": "express-starter project : practising REST API build using node and express",
   "main": "server.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "express": "^4.17.1",
     "morgan": "^1.10.0"
   },
