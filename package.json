@@ -1,0 +1,24 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "description": "express-starter project : practising REST API build using node and express",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravshresthh/express-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravshresthh/express-starter/issues"
+  },
+  "homepage": "https://github.com/gauravshresthh/express-starter#readme"
+}
