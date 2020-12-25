@@ -2,9 +2,9 @@ const app = require('./app');
 const dotenv = require('dotenv');
 const mongooose = require('mongoose');
 
-const Tour = require('./models/tourModel');
-
 dotenv.config({ path: './config.env' });
+
+const Tour = require('./models/tourModel');
 
 mongooose
   .connect(process.env.DATABASE_LOCAL, {
